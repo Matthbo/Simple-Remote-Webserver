@@ -4,7 +4,7 @@
   "description": "A simple app to create a webserver wherever on your pc.",
   "main": "index.js",
   "scripts": {
-    "install": "install.js",
+    "install": "node install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
