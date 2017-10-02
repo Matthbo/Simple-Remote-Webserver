@@ -1,0 +1,25 @@
+{
+  "name": "simple-rwebserver",
+  "version": "1.0.0",
+  "description": "A simple app to create a webserver wherever on your pc.",
+  "main": "index.js",
+  "scripts": {
+    "install": "install.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webserver",
+    "remote",
+    "simple"
+  ],
+  "author": "Matthbo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matthbo/Simple-Remote-Webserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Matthbo/Simple-Remote-Webserver/issues"
+  },
+  "homepage": "https://github.com/Matthbo/Simple-Remote-Webserver#readme"
+}
