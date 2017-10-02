@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Matthbo/Simple-Remote-Webserver/issues"
   },
-  "homepage": "https://github.com/Matthbo/Simple-Remote-Webserver#readme"
+  "homepage": "https://github.com/Matthbo/Simple-Remote-Webserver#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
 }
