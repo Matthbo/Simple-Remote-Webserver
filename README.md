@@ -2,6 +2,10 @@
 A simple app to create a webserver wherever on your pc.
 
 ## How to install
+### NPM install
+* To be done
+
+### Manual install
 * Download / clone the repo.
 * run `npm install`.
 * Add `/full_path_to_project_name/script/` where to your Enviromental path. E.g. `C:\projects\srws\script`.
