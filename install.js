@@ -4,6 +4,7 @@
 		scriptFile = ".\\script\\srws";
 
 	var winScript = '@echo off\r\n\r\nset cwd=%cd%\r\nset srwsDir="'+srwsDir+'"\r\n\r\ncd /d %srwsDir% && node index %cwd%\\%*\r\ncd /d %cwd%\r\n\r\nset cwd=\r\nset srwsDir=\r\n',
+		linScript = 'function srws() {\r\n\tcurDir=$(pwd)\r\n\t( cd "'+srwsDir+'" && node index $curDir/$* )\r\n}\r\n';
 
 	fs.mkdir('.\\script', () => {
 		fs.writeFile(scriptFile + '.bat', winScript, (err) => {
