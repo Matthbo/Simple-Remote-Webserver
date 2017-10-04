@@ -12,5 +12,5 @@ A simple app to create a webserver wherever on your pc.
 
 ## Usage
 * Open a terminal or command prompt.
-* Type `srws [path]`, the path is where you wanna load the webserver (typically in the root folder of a project).
+* Type `srws [path]`, the path(optional) is where you wanna load the webserver (typically in the root folder of a project).
 * To stop the webserver type `stop`.
