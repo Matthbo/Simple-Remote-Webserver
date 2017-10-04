@@ -1,5 +1,5 @@
 (function(){
-	const path = require('path').normalize(process.argv[2]),
+	const path = require('path').normalize(process.cwd()+"/"+(process.argv[2] || "")),
 		express = require('express'),
 		port = 8000,
 		app = express();

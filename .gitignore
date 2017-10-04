@@ -1,6 +1,5 @@
 /bin/*
 !/bin/srws.js
-!/bin/test
 
 # Logs
 logs

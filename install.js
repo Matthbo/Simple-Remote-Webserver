@@ -1,14 +1,13 @@
 (function(){
-	const cwd = process.cwd();
-	console.log(">>", cwd);
-	if(!cwd.includes('/node_modules/', 8)){
-		var fs = require('fs'),
+	var fs = require('fs'),
+			cwd = process.cwd(),
 			normalize = require('path').normalize;
 			srwsDir = __dirname,
 			scriptFile = normalize("bin/srws");
 
-		var winScript = '@echo off\r\n\r\nset cwd=%cd%\r\nset srwsDir="'+srwsDir+'"\r\n\r\ncd /d %srwsDir% && node index %cwd%\\%*\r\ncd /d %cwd%\r\n\r\nset cwd=\r\nset srwsDir=\r\n',
-			linScript = '( cd "'+srwsDir+'" && node index $(pwd)/$* )\n';
+	if(!cwd.includes(normalize('/node_modules/'), 8)){
+		var winScript = '@echo off\r\n\r\nset cwd=%cd%\r\nset srwsDir="'+srwsDir+'"\r\n\r\ncd /d %srwsDir% && node index %*\r\ncd /d %cwd%\r\n\r\nset cwd=\r\nset srwsDir=\r\n',
+			linScript = '( cd "'+srwsDir+'" && node index $* )\n';
 
 		fs.writeFile(scriptFile + '.bat', winScript, (err) => {
 			if(err) throw err;
