@@ -1,8 +1,9 @@
 {
-  "name": "simple-rwebserver",
+  "name": "srws",
   "version": "1.0.0",
   "description": "A simple app to create a webserver wherever on your pc.",
   "main": "index.js",
+  "bin": "./bin/srws",
   "scripts": {
     "install": "node install",
     "test": "echo \"Error: no test specified\" && exit 1"
