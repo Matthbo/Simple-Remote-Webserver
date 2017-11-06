@@ -21,7 +21,7 @@
 	    } else if(cmd === 'kill') {
 	    	process.exit(0);
 	    }else {
-	    	console.log('> Command', '"'+cmd+'"', 'does not exist.\n  Available commands: stop.');
+	    	console.log('> Command', '"'+cmd+'"', 'does not exist.\n  Available commands: stop, kill.');
 	    }
 	});
 })();
