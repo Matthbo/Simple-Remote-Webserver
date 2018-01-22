@@ -1,7 +1,7 @@
 {
   "name": "srws",
-  "version": "1.1.2",
-  "description": "A simple app to create a webserver wherever on your pc.",
+  "version": "1.2",
+  "description": "A simple app to create a webserver wherever on your pc. Also supports PHP.",
   "main": "index.js",
   "bin": "bin/srws.js",
   "scripts": {
