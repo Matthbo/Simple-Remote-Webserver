@@ -1,6 +1,6 @@
 {
   "name": "srws",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A simple app to create a webserver wherever on your pc. Also supports PHP.",
   "main": "index.js",
   "bin": "bin/srws.js",
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/Matthbo/Simple-Remote-Webserver#readme",
   "dependencies": {
-    "express": "^4.16.1"
+    "express": "^4.17.1"
   }
 }
